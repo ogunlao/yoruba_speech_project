@@ -1,0 +1,100 @@
+Yes. |Of course. ## Oui. |Naturellement.
+Thank you. ## Merci.
+Excuse me. ## Excusez- moi.
+Takeout, please. ## À emporter, svp.
+Can I have something to eat? ## Est-ce que je peux avoir quelque chose à manger ?
+What kind of drinks do you have? ## Quel genre de boissons as-tu ?
+Excuse me. ## Excusez- moi.
+Takeout, please. ## À emporter, svp.
+Can I have something to eat? ## Est-ce que je peux avoir quelque chose à manger ?
+What kind of drinks do you have? ## Quel genre de boissons as-tu ?
+Are you eating here or taking out? ## Est-ce que tu manges ici ou sors ?
+Eating here. ## Manger ici.
+Taking out. ## Sortie.
+I'll have a cheeseburger, a small French fry and a medium coke, please. ## J'aurai un cheeseburger, un petit French.fry et un coke moyen, svp.
+One sandwich and one orange juice, please. ## Un sandwich et un jus d'orange, svp.
+I'll have this and this. ## J'aurai ceci et ceci.
+Do you have ketchup? ## Prends-tu le ketchup ?
+I ordered a French fry. ## J'ai commandé un French.fry.
+Is this the large size? ## Est-ce que c'est la grande taille ?
+I'd like to have another cup. ## Je voudrais avoir une autre tasse.
+Can you tell me where the nearest cafeteria is? ## Peus-tu me dire où le cafétéria le plus proche est ?
+How would you like your eggs? ## Comment tu aiment vos oeufs ?
+Scrambled eggs with bacon, please. ## Oeufs brouillés avec le lard, svp.
+Soft-boiled eggs, please. ## oeufs Doux-bouillis, svp.
+Some more coffee? ## Encore plus de café ?
+Yes, please. ## Oui, svp.
+No, thank you. ## Non, merci.
+Next please. ## Veuillez après.
+Two hot dogs and one coke, please. ## Deux hot-dogs et un coke, svp.
+With mustard and ketchup? ## Avec de la moutarde et le ketchup ?
+Just ketchup, please. ## Ketchup juste, svp.
+Both, please. ## Tous les deux, svp.
+Easy on the mustard, please. ## Facile sur la moutarde, svp.
+With mustard, ketchup, or relish? ## Avec de la moutarde, le ketchup, ou le goût ?
+No, thanks, I like it plain. ## Non, merci, je l'aime plat.
+With mustard, onions, hold the ketchup, please. ## Avec de la moutarde, les oignons, tiennent le ketchup, svp.
+What do you want on it? ## Que veus-tu là-dessus ?
+Do you want large or small? ## Veus-tu grand ou petit ?
+A large one, please. ## Grand , svp.
+A hamburger and a milk shake, please. ## Un hamburger et un lait de poule , svp.
+Do you want tomato and cheese on your hamburger? ## Veus-tu la tomate et le fromage sur votre hamburger ?
+Just tomato, please. ## Tomate juste, svp.
+Eat-in or take-out? ## Manger-dans ou à emporter ?
+Take-out, please. ## À emporter, svp.
+I'll eat here. ## Je mangerai ici.
+Here or to go? ## Ici ou pour aller ?
+To go. ## Pour aller.
+Anything else? ## Toute autre chose ?
+No, thanks. ## Non, merci.
+Do you want to warm it up? ## Veus-tu le chauffer ?
+Yes, please. ## Oui, svp.
+How do you use this vending machine? ## Comment utilises-tu ce distributeur automatique automatique ?
+I put money in but nothing came out. ## J'ai mis l'argent dans mais rien n'a sorti.
+Good morning. |How are you, sir? ## Bonjour. |Comment vais tu, monsieur ?
+Fine, thank you. ## Très bien, merci.
+Here's a menu, sir. ## Voici une carte, monsieur.
+Thank you. ## Merci.
+I will have American breakfast. ## Je prendrai le petit déjeuner américain.
+What kind of juice would you like to have? ## Quel genre de jus aimes-tu avoir ?
+Do you have pineapple juice? ## Prends-tu le jus d'ananas ?
+Sorry, we don't have, today. ## Désolés, nous n'avons pas, aujourd'hui.
+All right. |Then give me grapefruit juice, please. ## Bien. |Donnez- alors moi le jus de pamplemousse, svp.
+Yes, and? ## Oui, et ?
+Toast, cheese omelet with buttered toast, two fried eggs, over easy with ham and coffee, please. ## Le pain grillé, omelette de fromage avec du pain grillé beurré, deux a fait frire des oeufs, excédent facile avec du jambon et café, svp.
+Shall I bring coffee now? ## Est-ce que je dois apporter le café maintenant ?
+Yes, please. ## Oui, svp.
+Here is a menu, sir. ## Voici une carte, monsieur.
+Thank you. |I'm in a hurry. |What can you serve quickly? ## Merci. |Je suis pressé. |Ce qui peut tu servir rapidement ?
+Let me see. |Yes, today's special lunch would be served quickly. ## Laissez- moi voir. |Oui, le déjeuner spécial d'aujourd'hui serait servi rapidement.
+What is the today's special? ## Quel est le spécial d'aujourd'hui ?
+A bowl of cream soup, fried prawn with lemon, butter, parsley potatoes, green salad, rolls, and coffee or tea. ## Un bol de potage crème, de crevette rose frite avec le citron, de beurre, de pommes de terre persillées , de salade verte, de roulements, et de café ou de thé.
+Okay, I'll take it. ## Ok, je le prendrai.
+Yes, sir. ## Oui, monsieur.
+No, thank you. |And check, please. ## Non, merci. |Et contrôle, svp.
+Certainly, sir. ## Certainement, monsieur.
+Where should I pay? ## Où devrais-je payer ?
+Please pay at the cashier over there. ## Svp salaire au caissier là-bas.
+I see. |Thank you very much. ## Je vois. |Merci beaucoup.
+One coffee and one hamburger, please. ## Un café et un hamburger, svp.
+Yes, please. |What kinds of ice cream do you have? ## Oui, svp. |Quels genres de crême glacée tu ont ?
+Vanilla, chocolate and strawberry. ## Vanille, chocolat et fraise.
+May I help you? ## Est-ce que je peux t'aider ?
+Give me coffee and apple pie, please. ## Donnez- moi le pâté en croûte de café et de pomme, svp.
+Black or white? ## Noir ou blanc ?
+Black, please. ## Noir, svp.
+Mustard? ## Moutarde ?
+No, ketchup, please. ## Non, ketchup, svp.
+How do you like it? ## Comment tu l'aiment ?
+Wonderful. ## Merveilleux.
+One hamburger and one orange shake, please. ## Un hamburger et une secousse orange, svp.
+Right. |Here you are. ## Droite. |Ici tu es.
+Oh, this is America. ## Ah, ceci est l'Amérique.
+You like America? |Very good. ## Tu aimes l'Amérique ? |Très bon.
+What's New Orleans nectar? ## Quel est nectar de la Nouvelle-Orléans ?
+Oh, it's an ice cream soda. ## Ah, c'est une soude de crême glacée.
+Please give me that one. |What do you call that? ## Veuillez me donner celui-là. |Ce qui tu appellent cela ?
+That's a banana split. ## C'est un banana split.
+Do you have banana ice cream? ## As-tu la crême glacée de banane ?
+Sure. |You want one? ## Sûr. |Tu veus un ?
+Yes, please. |How much is it? ## Oui, svp. |Combien coûte lui ?
