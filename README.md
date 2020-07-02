@@ -16,9 +16,9 @@ This adds a folder "yoruba_speech_project" to your local directory.
 
 - 1079 recordings of a maximum of 20 word length per recording
 - 3.06 total recording hours
-
-- Recordings are divided into folders for easy access.
 - 22 folders each containing 49 recorded audio with their respective metadata.
+
+Recordings are divided into folders for easy access.
 
 ## Collection
 
@@ -37,22 +37,41 @@ The elicitation mode was used in data collection where a displayed text is read 
 
 ## Preprocessing
 
-- 1 hour of data (split into train and val)
-- 1 hour of test set
-- Additional extra 1 hour as extra data
+preprocessing involved;
+
+- validating data for errors and removing corrupt files
+- merging folders
+- splitting data into train, val and test samples
+
+Two main dataset directory with subdirectories;
+
+- `recordings` contain the unprocessed recorded files and metadata
+- `data/records` contain split data
+
+Raw speech dataset split into;
+
+- 1 hour of speech data (split into train and val)
+- 1 hour of speech as test set
+- Additional extra 1 hour of speech as extra data
+- each contained in `data/records/train`, `data/records/val`, `data/records/extra` respectively
 
 All preprocessing can be accessed through the notebook `yoruba_speech_preprocessing` and script `yor_processor`
 
-Note that a python installation is required with some other dependencies;
+Note that a python installation is required with some dependencies;
 
 - numpy
 - wave
 - contextlib
 
+## Application
+
+The dataset can be used majorly for low-resource speech modelling. An example is to learn a global representation using some high-resource data like LibriSpeech and fine-tune on this dataset for Speech-to-text.
+
 ## Problems Encountered
 
-- Time and patience is required to collect good recorded speech of a large amount
-- Noise and distractions can be a hinderance to getting a good dataset
+- Difficult to eliminate noise from the surrounding, when recording.
+- Some words in text were difficult to pronounce without proper accents.
+- Recording speech takes time and can become uninteresting to perform quickly.
 
 ## Contributing
 
