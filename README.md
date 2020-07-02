@@ -20,7 +20,7 @@ This adds a folder "yoruba_speech_project" to your local directory.
 
 Recordings are divided into folders for easy access.
 
-## Collection
+## Data Collection
 
 Text dataset used for recording was collected from [Niger Volta LTI](https://github.com/Niger-Volta-LTI/yoruba-text/blob/master/TheYorubaBlog/theyorubablog_dot_com.raw.txt). It had a smooth narrative which made the text interesting to read.
 
@@ -35,9 +35,9 @@ Recording was done using the [Lig-Aikuma](https://lig-aikuma.imag.fr/tutorial/) 
 
 The elicitation mode was used in data collection where a displayed text is read carefully by the speaker during recording.
 
-## Preprocessing
+## Data Preprocessing
 
-preprocessing involved;
+Preprocessing involved;
 
 - validating data for errors and removing corrupt files
 - merging folders
