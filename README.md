@@ -1,4 +1,4 @@
-# Yoruba Speech Dataset for Low-resource speech modelling
+# Yoruba Speech Dataset for Low-Resource Speech Modelling
 
 This repo contains over 3 hours of recorded yoruba text from 1 native yoruba male speaker.
 
