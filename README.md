@@ -69,13 +69,14 @@ The dataset can be used majorly for low-resource speech modelling. An example is
 
 ## Problems Encountered
 
-- Difficult to eliminate noise from the surrounding, when recording.
+- Difficulty in avoiding noise from environment when recording. Some recordings had to be performed multiple times to get a clearer audio
+- Few audio files were corrupted after recording. I had be filter them out during preprocessing. Be aware of this when using the raw (unprocessed) audio files.
 - Some words in text were difficult to pronounce without proper accents.
 - Recording speech takes time and can become uninteresting to perform quickly.
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+If you will like to contribute to this project by recording more audio files, I have text files under `slit_text` folder where you can easily read short sentences. Upload the text files to the `lig-aikuma` android app and start recording. Currently at `yor_split_21` for this project. Make a pull requests afterwards.
 
 ## License
 
