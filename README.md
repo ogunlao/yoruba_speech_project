@@ -78,6 +78,10 @@ The dataset can be used majorly for low-resource speech modelling. An example is
 
 If you will like to contribute to this project by recording more audio files, I have text files under `slit_text` folder where you can easily read short sentences. Upload the text files to the `lig-aikuma` android app and start recording. Currently at `yor_split_21` for this project. Make a pull requests afterwards.
 
+## Original Author
+
+[Sewade Olaolu Ogun](http://ogunlao.github.io/)
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
