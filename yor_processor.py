@@ -76,17 +76,18 @@ def calculate_recording_len(path="./recordings/", file_format=".wav"):
     return total, files, corrupted
 
 def extract_non_corrupted_files(path="./recordings/"):
+    # Extracting all the non-corrupted files
     wav_files = []
-    linker = []
-
-    for directory in os.listdir(path): # parent directory of the recordings, it should contain folders that contain wav,json and txt files
-        if os.path.isdir(path+directory):
+    all_linkers = dict()
+    for directory in os.listdir("./recordings/"): # parent directory of the recordings, it should contain folders that contain wav,json and txt files
+        if os.path.isdir("./recordings/"+directory):
+            linker = []
             to_remove = []
-            for file in os.listdir(path+directory):
-                if file.endswith(".txt"):
-                    linker_data = open(path+directory+"/"+file).readlines()
+            linker_file = [file for file in os.listdir("./recordings/"+directory) if file.endswith(".txt")][0]
+            linker_data = open("./recordings/"+directory+"/"+linker_file).readlines()
+            for file in os.listdir("./recordings/"+directory):                
                 if file.endswith(".wav"):
-                    fname = path+directory+"/"+file
+                    fname = "./recordings/"+directory+"/"+file
                     try:
                         with contextlib.closing(wave.open(fname,'r')) as f:
                             frames = f.getnframes()
@@ -101,9 +102,11 @@ def extract_non_corrupted_files(path="./recordings/"):
                     if file in linker_data[i]:
                         linker_data.pop(i)
                     i+=1
+            
             linker.extend(linker_data)
+            all_linkers[directory] = linker
 
-    return wav_files, linker
+    return wav_files, all_linkers
 
 def split_train_val_test(wav_files, num_splits, val_split):
     np.random.seed(0)
@@ -144,31 +147,32 @@ def split_train_val_test(wav_files, num_splits, val_split):
     return to_copy_train, to_copy_valid, to_copy_test, to_copy_extra
 
 
-def create_char_set(linker, path="./yor_split.txt", exclude="",):
-    text_file = open(path,"r").readlines() # Modify this to the directory of your txt file that you recorded with
-    text_data = []
-    chars = {"ε":0, " ":1}
-    char_idx = 2
-    for link in linker:
-        file,idx = link.split(":")[0],int(link.split(":")[1].split(" ")[1])-1
-        line = text_file[idx]
-        #line = line.split("##")[0].strip()
-        line = re.sub(exclude, "", line)
-        #line = re.sub("[\[\]|٪%«»_ـ]","",line) # Clean unnecessary characters from the data, this is for arabic
-        #line = re.sub("[,،;؛μ\\\/≈٠١٢٣٤٥٦٧٨٩ταίηο–ēιäɛθκ-]","",line) # Clean unnecessary characters from the data, this is for arabic
-        text_data.append((line,file.split(".")[0]))
-        char_set = set(line)
-        for c in char_set:
-            if c not in chars:
-                chars[c]=char_idx
-                char_idx+=1
-    
-    return chars, text_data 
+def create_char_set(linkers, path="./split_text/", exclude="",):
 
+    chars = {" ":1, "ε":0}
+    text_data = []
+    char_idx = 2
+    for section_id, linker in linkers.items():
+        text_file = open(path+section_id,"r").readlines() # Modify this to the directory of your txt file that you recorded with
+        
+        for link in linker:
+            #print(link)
+            file, idx = link.split(":")[0],int(link.split(":")[1].split(" ")[1])-1
+            line = text_file[idx]
+            line = line.split("##")[0].strip()
+            
+            line = re.sub(exclude, "", line) # Clean unnecessary characters from the data, this is for arabic
+            text_data.append((line,file.split(".")[0]))
+            char_set = set(line)
+            for c in char_set:
+                if c not in chars:
+                    chars[c]=char_idx
+                    char_idx+=1
+    return chars, text_data
 
 def create_data_format(text_data, chars_dict):
-    raw_text = "\n".join([wav+":"+line for line,wav in text_data])
-    with open("raw_text_file.txt", "w") as f:
+    raw_text = "\n".join([wav+":"+line for line, wav in text_data])
+    with open("data/raw_text_file.txt","w") as f:
         f.write(raw_text)
 
     indices_text = []
@@ -180,13 +184,13 @@ def create_data_format(text_data, chars_dict):
         indices_text.append(wav+" "+" ".join(indices))
     
     indices_text = "\n".join(indices_text)
-    with open("chars.txt","w") as f:
+    with open("data/chars.txt","w") as f:
         f.write(indices_text)
 
-    with open("charset.json", "w") as js:
+    with open("data/charset.txt", "w") as js:
         js.write(str(chars_dict))
     
-    with open("charset.json") as js:
+    with open("data/charset.txt") as js:
         charset = eval(js.read())
     
     print("files created for training")
